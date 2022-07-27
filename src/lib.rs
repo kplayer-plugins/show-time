@@ -11,7 +11,7 @@ impl ShowTime {
 
 impl kplayer::plugin::BasePlugin for ShowTime {
     fn get_name(&self) -> String {
-        String::from("show-text")
+        String::from("show-time")
     }
     fn get_args(
         &mut self,
